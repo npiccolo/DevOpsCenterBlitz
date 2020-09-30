@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Dev_Hub_Lightning</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>Foo</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>MyTestClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Info__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>tim_test_object__c.id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Karen2__c-Karen2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Karen__c-Karen Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>M1__c-M1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MikeTest3__c-MikeTest3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MikeTest4__c-MikeTest4 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mike_QA_Test__c-Mike QA Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mike_Test_7__c-Mike Test 7 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Nico_test__c-Nico_test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Widget__c-Widget Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>karensobj__c-karensobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>tim_test_object__c-tim-test-object Layout</layout>
+    </layoutAssignments>
+    <loginIpRanges>
+        <description>Tokyo</description>
+        <endAddress>61.120.150.159</endAddress>
+        <startAddress>61.120.150.128</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>Tokyo</description>
+        <endAddress>61.213.161.147</endAddress>
+        <startAddress>61.213.161.144</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>EMEA</description>
+        <endAddress>62.17.146.191</endAddress>
+        <startAddress>62.17.146.140</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>Halifax, Canada</description>
+        <endAddress>142.176.79.175</endAddress>
+        <startAddress>142.176.79.168</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>Singapore/HYD</description>
+        <endAddress>202.95.77.95</endAddress>
+        <startAddress>202.95.77.64</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>East Coast</description>
+        <endAddress>204.14.236.255</endAddress>
+        <startAddress>204.14.236.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>West Coast</description>
+        <endAddress>204.14.239.255</endAddress>
+        <startAddress>204.14.239.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>Sydney</description>
+        <endAddress>221.133.209.159</endAddress>
+        <startAddress>221.133.209.128</startAddress>
+    </loginIpRanges>
+    <tabVisibilities>
+        <tab>Getting_Started</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Chatter External</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AssignTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInviteExternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RemoveDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+</Profile>
